@@ -1,35 +1,31 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <title>Todo app</title>
+    <title>Todo App</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <div class="container">
-    
         <div class="statscontainer">
             <div class="details">
-            <h1>Todo App</h1>
-            <p>Keep it up!</p>
-            <div id="progressBar">
-                <div id="progress">
+                <h1>Todo App</h1>
+                <p>Keep it up!</p>
+                <div id="progressBar">
+                    <div id="progress"></div>
                 </div>
             </div>
-            </div>
             <div class="stats-numbers">
-                <div id="numbers"> <p>2/3</p></div>
+                <div id="numbers"><p>0/0</p></div>
             </div>
         </div>
-        <form action="">
-            <input type="text" placeholder="Write your task">
-            <button type="submit" id ='newtask'>+</button>
+        <form action="" onsubmit="return false;">
+            <input type="text" id="taskInput" placeholder="Write your task">
+            <button type="submit" id="newtask">+</button>
         </form>
-        <ul class="task-list"></ul>
+        <ul id="task-List"></ul>
     </div>
-    <script src="app.js">
-
-    </script>
+    <script src="app.js"></script>
 </body>
 </html>
