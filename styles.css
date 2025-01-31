@@ -5,11 +5,11 @@
 }
 
 :root {
-    --background: #000430;
-    --secondaryBackground: #171c48;
-    --text: #fff;
-    --purple: #828dff;
-    --teal: #24feee;
+    --background: #1b5cd6;
+    --secondaryBackground: #ededf8;
+    --text: #181616;
+    --purple: #badae7;
+    --teal: #131eb6;
 }
 
 body {
