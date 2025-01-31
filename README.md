@@ -79,4 +79,4 @@ Start managing your tasks!
 This project is open-source and available under the MIT License. Feel free to use, modify, and distribute it as you see fit.
 
 # Acknowledgments
-Confetti.js: Used for the confetti animation. Confetti.js
+Confetti.js: Used for the confetti animation. [Confetti.js](https://confetti.js.org/)
